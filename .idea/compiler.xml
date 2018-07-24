@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="roadrunner" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="roadrunner" target="7" />
       <module name="roadrunner_main" target="1.8" />
       <module name="roadrunner_test" target="1.8" />
     </bytecodeTargetLevel>
